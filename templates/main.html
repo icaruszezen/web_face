@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>人脸识别系统</title>
+        <link href="../static/css/main.css" rel="stylesheet">
+        <style>
+        </style>
+	</head>
+	<body>
+        <div id="title1">视频窗口</div>
+        <div id="title2">识别窗口</div>
+        <img id="video1" src="{{ url_for('video_feed') }}">
+        <img id="video2" src="{{ url_for('video_res') }}">
+	</body>
+</html>
