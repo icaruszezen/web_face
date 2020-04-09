@@ -4,6 +4,7 @@
 
 
 ubuntu18.04
+
 cuda10.2 
 
 cudnn7.6.5.32 
